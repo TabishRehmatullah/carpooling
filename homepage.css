@@ -1,0 +1,150 @@
+/* Reset default margins and padding for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: azure;
+}
+
+
+
+/* Style the navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.custom-icon {
+    width: 30px; /* Adjust the size as needed */
+    cursor: pointer;
+}
+
+.navbar-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+.navbar-items li {
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Content Area */
+.content {
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 40px; /* Adjust for the sidebar */
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    margin: 80px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    width: calc(33.33% - 20px); /* 3 cards per row */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Overlay and Zoomed Card */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.zoomed-card {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    max-width: 80%;
+    overflow: auto;
+}
+
+/* Book Me Button */
+.book-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+/* Payment Form */
+.payment-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    max-width: 80%;
+    overflow: auto;
+}
+
+.payment-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payment-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.payment-form button:hover {
+    background-color: #0056b3;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
