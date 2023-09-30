@@ -1,4 +1,4 @@
-/* Reset default margins and padding for better consistency */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body, h1, h2, p {
 }
 
 .custom-icon {
-    width: 30px; /* Adjust the size as needed */
+    width: 30px; 
     cursor: pointer;
 }
 
