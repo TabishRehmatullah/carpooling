@@ -5,6 +5,36 @@ body, h1, h2, p {
     font-family: Arial, sans-serif;
 }
 
+/* Style the navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.custom-icon {
+    width: 30px; /* Adjust the size as needed */
+    cursor: pointer;
+}
+
+.navbar-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+.navbar-items li {
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Basic styling for the container and form */
 .container {
     width: 80%;
@@ -87,4 +117,9 @@ button:hover {
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
 }
