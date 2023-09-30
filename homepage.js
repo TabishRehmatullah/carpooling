@@ -14,8 +14,7 @@ function toggleSidebar() {
 function zoomCard(card) {
     document.querySelector(".overlay").style.display = "block";
     document.querySelector(".zoomed-card").style.display = "block";
-    // Populate the zoomed card with data from the clicked card
-    // (user name, locations, time, charges, etc.)
+   
 }
 
 function closeZoomedCard() {
@@ -30,8 +29,7 @@ function showPaymentForm(button) {
 }
 
 function processPayment() {
-    // Handle payment processing logic here (e.g., validation)
-    // Display a success message and hide the payment form
+ 
     alert("Payment processed successfully!");
     document.querySelector(".payment-form").style.display = "none";
 }
